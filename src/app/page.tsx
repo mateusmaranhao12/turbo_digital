@@ -1,3 +1,4 @@
+import BonusExclusivos from "@/components/BonusExclusivos/BonusExclusivos";
 import HeaderAplicacao from "@/components/HeaderAplicacao/HeaderAplicacao"
 import JaPassouPorIsso from "@/components/JaPassouPorIsso/JaPassouPorIsso";
 import MentoriaTurboDigital from "@/components/MentoriaTurboDigital/MentoriaTurboDigital";
@@ -10,6 +11,7 @@ export default function Home() {
       <SectionLaura />
       <JaPassouPorIsso />
       <MentoriaTurboDigital />
+      <BonusExclusivos />
     </div>
   );
 }
