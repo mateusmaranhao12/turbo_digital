@@ -18,14 +18,14 @@ export default function SectionLaura() {
                         <span className="font-semibold text-red-500"> tráfego pago inteligente</span>.
                         Estou aqui para colocar um <span className="font-bold uppercase text-red-600">TURBO</span> no seu negócio digital!
                     </p>
-                    <Button className="bg-red-500 hover:bg-red-600 text-white text-base font-semibold px-6 py-3 rounded-full shadow-md">
+                    <Button className="bg-red-500 hover:bg-red-600 text-white text-base font-semibold px-6 py-3 rounded-full shadow-md cursor-pointer">
                         Fale comigo
                     </Button>
                 </div>
 
                 <div className="flex justify-center">
                     <img
-                        src="/IMG_1549.PNG"
+                        src="/IMG_1549.png"
                         alt="Laura Ruiz"
                         className="rounded-2xl w-72 h-auto object-cover shadow-lg"
                     />
