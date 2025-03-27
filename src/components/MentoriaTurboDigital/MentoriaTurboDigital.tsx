@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 export default function MentoriaTurboDigital() {
 
     function whatsApp() {
-        window.open('wa.me/5518997541191')
+        window.open('https://wa.me/5518997541191', '_blank');
     }
-    
+
     return (
         <section className="w-full px-6 py-12 bg-white">
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">

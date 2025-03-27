@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 export default function AcelerarResultados() {
 
     function whatsApp() {
-        window.open('wa.me/5518997541191')
+        window.open('https://wa.me/5518997541191', '_blank');
     }
-    
+
     return (
         <section className="w-full px-6 py-16 bg-white">
             <div className="max-w-3xl mx-auto text-center">

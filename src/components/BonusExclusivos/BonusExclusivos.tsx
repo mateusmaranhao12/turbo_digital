@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 export default function MentoriaTurboDigital() {
 
     function whatsApp() {
-        window.open('wa.me/5518997541191')
+        window.open('https://wa.me/5518997541191', '_blank');
     }
 
     const bonusList = [

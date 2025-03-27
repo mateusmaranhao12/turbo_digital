@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 export default function HeaderAplicacao() {
 
     function whatsApp() {
-        window.open('wa.me/5518997541191')
+        window.open('https://wa.me/5518997541191', '_blank');
     }
 
     return (
