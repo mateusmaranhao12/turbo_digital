@@ -6,7 +6,7 @@ export default function MentoriaTurboDigital() {
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
                 <div className="flex justify-center">
                     <Image
-                        src={"/IMG_1455.png"}
+                        src={"/mentoria-turbo.png"}
                         alt={"Mentoria Turbo Digital"}
                         width={332}
                         height={332}
