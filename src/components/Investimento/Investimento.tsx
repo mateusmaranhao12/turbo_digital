@@ -1,4 +1,9 @@
 export default function Investimento() {
+
+    function whatsApp() {
+        window.open('wa.me/5518997541191')
+    }
+    
     return (
         <section className="w-full px-6 py-12 bg-white">
             <div className="max-w-3xl mx-auto text-center">
@@ -22,7 +27,7 @@ export default function Investimento() {
                     Menos de <strong>R$100,00 por mês</strong> – acredite, essa é uma oferta que vai te pagar de volta rapidamente!
                 </p>
 
-                <button className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xl px-8 py-4 rounded-full shadow-lg flash-fast cursor-pointer">
+                <button onClick={whatsApp} className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xl px-8 py-4 rounded-full shadow-lg flash-fast cursor-pointer">
                     EU QUERO
                 </button>
 

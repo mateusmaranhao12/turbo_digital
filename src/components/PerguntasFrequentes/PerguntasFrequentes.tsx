@@ -74,7 +74,7 @@ export default function PerguntasFrequentes() {
             </div>
             <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
                 <a
-                    href="https://wa.me/SEUNUMERO"
+                    href="https://wa.me/5518997541191"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-full shadow-md text-center w-full sm:w-auto"
@@ -83,7 +83,7 @@ export default function PerguntasFrequentes() {
                 </a>
 
                 <a
-                    href="https://seucheckout.com"
+                    href="https://wa.me/5518997541191"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-full shadow-md text-center w-full sm:w-auto"
@@ -92,7 +92,7 @@ export default function PerguntasFrequentes() {
                 </a>
 
                 <a
-                    href=""
+                    href="https://www.instagram.com/laurapersonaldigital?igsh=MXRtdWNocXNjZDlzMg%3D%3D&utm_source=qr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-full shadow-md text-center w-full sm:w-auto"

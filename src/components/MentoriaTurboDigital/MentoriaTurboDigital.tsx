@@ -3,6 +3,11 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button";
 
 export default function MentoriaTurboDigital() {
+
+    function whatsApp() {
+        window.open('wa.me/5518997541191')
+    }
+    
     return (
         <section className="w-full px-6 py-12 bg-white">
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
@@ -66,7 +71,7 @@ export default function MentoriaTurboDigital() {
             </div>
 
             <div className="flex justify-center">
-                <Button className="mt-4 px-8 py-5 text-lg font-bold bg-emerald-500 
+                <Button onClick={whatsApp} className="mt-4 px-8 py-5 text-lg font-bold bg-emerald-500 
                     hover:bg-emerald-600 text-white rounded-full transition duration-300 
                     shadow-lg cursor-pointer uppercase"
                 >

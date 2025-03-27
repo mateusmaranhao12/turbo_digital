@@ -1,6 +1,11 @@
 import { Button } from "../ui/button";
 
 export default function MentoriaTurboDigital() {
+
+    function whatsApp() {
+        window.open('wa.me/5518997541191')
+    }
+    
     const bonusList = [
         {
             titulo: 'Bônus 1',
@@ -57,7 +62,7 @@ export default function MentoriaTurboDigital() {
                 </p>
             </div>
             <div className="flex justify-center">
-                <Button className="mt-6 px-8 py-5 text-lg font-bold bg-emerald-500 
+                <Button onClick={whatsApp} className="mt-6 px-8 py-5 text-lg font-bold bg-emerald-500 
                     hover:bg-emerald-600 text-white rounded-full transition duration-300 
                     shadow-lg cursor-pointer uppercase"
                 >

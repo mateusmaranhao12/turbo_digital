@@ -1,6 +1,11 @@
 import { Button } from "@/components/ui/button";
 
 export default function AcelerarResultados() {
+
+    function whatsApp() {
+        window.open('wa.me/5518997541191')
+    }
+    
     return (
         <section className="w-full px-6 py-16 bg-red-50">
             <div className="max-w-3xl mx-auto text-center">
@@ -18,7 +23,7 @@ export default function AcelerarResultados() {
                     </span>
                 </p>
 
-                <Button className="text-lg px-8 py-4 font-semibold bg-emerald-500 hover:bg-emerald-600 cursor-pointer text-white rounded-full shadow-lg transition duration-300">
+                <Button onClick={whatsApp} className="text-lg px-8 py-4 font-semibold bg-emerald-500 hover:bg-emerald-600 cursor-pointer text-white rounded-full shadow-lg transition duration-300">
                     Garanta sua vaga agora
                 </Button>
             </div>

@@ -3,6 +3,11 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button";
 
 export default function SectionLaura() {
+
+    function whatsApp() {
+        window.open('wa.me/5518997541191')
+    }
+
     return (
         <section className="w-full px-6 py-12 bg-white">
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
@@ -32,7 +37,7 @@ export default function SectionLaura() {
                     </p>
                     <p className="text-gray-800 text-lg mb-6">Estou aqui para colocar um <span className="font-bold uppercase text-emerald-600">TURBO</span> nas suas
                         redes sociais para você conquistar a visibilidade que sempre sonhou.</p>
-                    <Button className="bg-emerald-500 hover:bg-emerald-600 text-white text-base font-semibold px-6 py-3 rounded-full shadow-md cursor-pointer">
+                    <Button onClick={whatsApp} className="bg-emerald-500 hover:bg-emerald-600 text-white text-base font-semibold px-6 py-3 rounded-full shadow-md cursor-pointer">
                         Fale comigo
                     </Button>
                 </div>
