@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function JaPassouPorIsso() {
     return (
         <section className="w-full px-6 py-12 bg-gradient-to-b from-red-100">
-            <div className="max-w-4xl mx-auto text-center">
+            <div className="max-w-4xl mx-auto text-start">
                 <h2 className="text-2xl md:text-3xl font-bold text-emerald-600 mb-8">
                     A sua realidade hoje é assim?
                 </h2>
@@ -26,16 +26,16 @@ export default function JaPassouPorIsso() {
                 <p className="text-lg md:text-xl text-gray-600 mt-4">
                     O digital parece um labirinto sem fim, mas a boa notícia é: <span className="font-bold text-emerald-600">eu tenho o caminho para você sair desse labirinto.</span>
                 </p>
-            </div>
-            <div className="flex justify-center">
-                <Image
-                    src={"/labirinto.jpg"}
-                    alt={"Mentoria Turbo Digital"}
-                    width={632}
-                    height={32}
-                    quality={100}
-                    className="rounded-2xl h-80 object-cover shadow-lg mt-10"
-                />
+                <div className="flex justify-start">
+                    <Image
+                        src={"/labirinto.jpg"}
+                        alt={"Mentoria Turbo Digital"}
+                        width={632}
+                        height={32}
+                        quality={100}
+                        className="rounded-2xl h-80 object-cover shadow-lg mt-10"
+                    />
+                </div>
             </div>
         </section>
     );

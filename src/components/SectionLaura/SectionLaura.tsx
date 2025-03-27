@@ -8,13 +8,14 @@ export default function SectionLaura() {
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
                 <div className="flex justify-center">
                     <Image
-                        src={"/IMG_1549.png"}
-                        alt={"Mentoria Turbo Digital"}
+                        src="/IMG_1549.png"
+                        alt="Mentoria Turbo Digital"
                         width={332}
                         height={332}
                         quality={100}
-                        className="rounded-2xl w-72 h-auto object-cover shadow-lg"
+                        className="w-40 md:w-72 h-40 md:h-auto object-cover shadow-lg rounded-full md:rounded-2xl"
                     />
+
                 </div>
                 <div>
                     <h2 className="text-3xl md:text-4xl font-bold text-emerald-600 mb-6">
