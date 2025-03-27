@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-
 export default function JaPassouPorIsso() {
     return (
         <section className="w-full px-6 py-12 bg-gradient-to-b from-red-100">
