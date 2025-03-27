@@ -8,7 +8,7 @@ export default function SectionLaura() {
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
                 <div className="flex justify-center">
                     <Image
-                        src="/IMG_1549.png"
+                        src="https://ruizmidias.com.br/mentoria-turbo-digital/IMG_1549.png"
                         alt="Mentoria Turbo Digital"
                         width={332}
                         height={332}

@@ -8,7 +8,7 @@ export default function MentoriaTurboDigital() {
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
                 <div className="flex justify-center">
                     <Image
-                        src={"/mentoria-turbo.png"}
+                        src={"https://ruizmidias.com.br/mentoria-turbo-digital/mentoria-turbo.png"}
                         alt={"Mentoria Turbo Digital"}
                         width={332}
                         height={332}
@@ -41,13 +41,13 @@ export default function MentoriaTurboDigital() {
 
             <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {[
-                    "/modulo1.png",
-                    "/modulo2.png",
-                    "/modulo3.png",
-                    "/modulo4.png",
-                    "/modulo5.png",
-                    "/modulo6.png",
-                    "/modulo7.png",
+                    "https://ruizmidias.com.br/mentoria-turbo-digital/modulo1.png",
+                    "https://ruizmidias.com.br/mentoria-turbo-digital/modulo2.png",
+                    "https://ruizmidias.com.br/mentoria-turbo-digital/modulo3.png",
+                    "https://ruizmidias.com.br/mentoria-turbo-digital/modulo4.png",
+                    "https://ruizmidias.com.br/mentoria-turbo-digital/modulo5.png",
+                    "https://ruizmidias.com.br/mentoria-turbo-digital/modulo6.png",
+                    "https://ruizmidias.com.br/mentoria-turbo-digital/modulo7.png",
                 ].map((src, index) => (
                     <div
                         key={index}

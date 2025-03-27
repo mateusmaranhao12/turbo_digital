@@ -28,7 +28,7 @@ export default function JaPassouPorIsso() {
                 </p>
                 <div className="flex justify-start">
                     <Image
-                        src={"/labirinto.jpg"}
+                        src={"https://ruizmidias.com.br/mentoria-turbo-digital/labirinto.jpg"}
                         alt={"Mentoria Turbo Digital"}
                         width={632}
                         height={32}
