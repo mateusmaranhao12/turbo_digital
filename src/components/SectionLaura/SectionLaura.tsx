@@ -1,3 +1,5 @@
+'use client'
+import Image from "next/image"
 import { Button } from "@/components/ui/button";
 
 export default function SectionLaura() {
@@ -24,9 +26,12 @@ export default function SectionLaura() {
                 </div>
 
                 <div className="flex justify-center">
-                    <img
-                        src="/IMG_1549.png"
-                        alt="Laura Ruiz"
+                    <Image
+                        src={"/IMG_1549.png"}
+                        alt={"Mentoria Turbo Digital"}
+                        width={332}
+                        height={332}
+                        quality={100}
                         className="rounded-2xl w-72 h-auto object-cover shadow-lg"
                     />
                 </div>
