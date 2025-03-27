@@ -6,6 +6,7 @@ import HeaderAplicacao from "@/components/HeaderAplicacao/HeaderAplicacao"
 import Investimento from "@/components/Investimento/Investimento";
 import JaPassouPorIsso from "@/components/JaPassouPorIsso/JaPassouPorIsso";
 import MentoriaTurboDigital from "@/components/MentoriaTurboDigital/MentoriaTurboDigital";
+import PerguntasFrequentes from "@/components/PerguntasFrequentes/PerguntasFrequentes";
 import SectionLaura from "@/components/SectionLaura/SectionLaura";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Investimento />
       <Garantia />
       <AcelerarResultados />
+      <PerguntasFrequentes />
     </div>
   );
 }
