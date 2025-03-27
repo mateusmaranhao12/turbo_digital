@@ -9,7 +9,7 @@ export default function AcelerarResultados() {
     }
     
     return (
-        <section className="w-full px-6 py-16 bg-red-50">
+        <section className="w-full px-6 py-16 bg-white">
             <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-bold text-emerald-600 mb-6">
                     Pronta para Acelerar Seus Resultados?
