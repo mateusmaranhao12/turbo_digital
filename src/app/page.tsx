@@ -1,4 +1,5 @@
 import BonusExclusivos from "@/components/BonusExclusivos/BonusExclusivos";
+import ClientesSatisfeitos from "@/components/ClientesSatisfeitos/ClientesSatisfeitos";
 import HeaderAplicacao from "@/components/HeaderAplicacao/HeaderAplicacao"
 import JaPassouPorIsso from "@/components/JaPassouPorIsso/JaPassouPorIsso";
 import MentoriaTurboDigital from "@/components/MentoriaTurboDigital/MentoriaTurboDigital";
@@ -12,6 +13,7 @@ export default function Home() {
       <JaPassouPorIsso />
       <MentoriaTurboDigital />
       <BonusExclusivos />
+      <ClientesSatisfeitos />
     </div>
   );
 }
