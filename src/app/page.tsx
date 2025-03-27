@@ -1,4 +1,5 @@
 import HeaderAplicacao from "@/components/HeaderAplicacao/HeaderAplicacao"
+import JaPassouPorIsso from "@/components/JaPassouPorIsso/JaPassouPorIsso";
 import SectionLaura from "@/components/SectionLaura/SectionLaura";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <HeaderAplicacao />
       <SectionLaura />
+      <JaPassouPorIsso />
     </div>
   );
 }
