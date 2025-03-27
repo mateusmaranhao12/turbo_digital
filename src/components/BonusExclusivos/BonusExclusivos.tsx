@@ -1,3 +1,5 @@
+import { Button } from "../ui/button";
+
 export default function MentoriaTurboDigital() {
     const bonusList = [
         {
@@ -53,6 +55,14 @@ export default function MentoriaTurboDigital() {
                 <p className="text-lg text-gray-700 mt-8 text-center">
                     Esses bônus vão ser sua <span className="text-emerald-700 font-bold">arma secreta</span> para acelerar seus resultados!
                 </p>
+            </div>
+            <div className="flex justify-center">
+                <Button className="mt-6 px-8 py-5 text-lg font-bold bg-emerald-500 
+                    hover:bg-emerald-600 text-white rounded-full transition duration-300 
+                    shadow-lg cursor-pointer uppercase"
+                >
+                    Preciso disso tudo
+                </Button>
             </div>
         </section>
     );
